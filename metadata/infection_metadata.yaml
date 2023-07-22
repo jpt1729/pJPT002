@@ -1,0 +1,16 @@
+metadata:
+  condition:
+    - A: A1-C3, E1-G3
+    - B: A4-C5, E4-G5
+    - C: A6-C7, E6-G7
+    - D: A8-C9, E8-G9
+    - Cn: D1-D9, H1-H9
+  case:
+    - O6BG: A2-C2, E2-G2, D3-D4, H3-H4, A5-C5, E5-G5, A5-C5, E5-G5, A7-C7, E7-G7, A9-C9, E9-G9
+    - DMSO: A1-H9, D2, H2, A4-C4, E4-G4, A6-C6, E6-G6, A8-C8, E8-G8
+    - Guanine: A3-C3, E3-G3, D5-D6, H5-H6
+    - none: D7-D9, H7-H9
+  cells:
+    - A549: E1-H9
+    - MEF: A1-D9
+    
